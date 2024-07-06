@@ -8,14 +8,13 @@ import { getAuth } from 'https://www.gstatic.com/firebasejs/10.12.3/firebase-aut
 import { getFirestore, doc, updateDoc, arrayUnion, arrayRemove } from 'https://www.gstatic.com/firebasejs/10.12.3/firebase-firestore.js'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAJ86Q5G7Wmu6XS_Abl4DV3NGyKyGNTkKY",
-    authDomain: "passcheck-9812.firebaseapp.com",
-    databaseURL: "https://passcheck-9812-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "passcheck-9812",
-    storageBucket: "passcheck-9812.appspot.com",
-    messagingSenderId: "320121142741",
-    appId: "1:320121142741:web:134bdc4fc7600dca5c115c"
-  };  
+  apiKey: "AIzaSyC0ygBOz6_1cIePmCku6c1DyZYnGlI3bSk",
+  authDomain: "passcheck-0.firebaseapp.com",
+  projectId: "passcheck-0",
+  storageBucket: "passcheck-0.appspot.com",
+  messagingSenderId: "435706064097",
+  appId: "1:435706064097:web:68bc645a89f91753dd1ba0"
+};
 
 const app = initializeApp(firebaseConfig);
 
