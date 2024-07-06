@@ -1,11 +1,6 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.3/firebase-app.js'
 
-// If you enabled Analytics in your project, add the Firebase SDK for Google Analytics
-import { getAnalytics } from 'https://www.gstatic.com/firebasejs/10.12.3/firebase-analytics.js'
-
-// Add Firebase products that you want to use
-import { getAuth } from 'https://www.gstatic.com/firebasejs/10.12.3/firebase-auth.js'
-import { getFirestore, doc, updateDoc, arrayUnion, arrayRemove } from 'https://www.gstatic.com/firebasejs/10.12.3/firebase-firestore.js'
+import { getFirestore, doc, updateDoc, arrayUnion} from 'https://www.gstatic.com/firebasejs/10.12.3/firebase-firestore.js'
 
 const firebaseConfig = {
   apiKey: "AIzaSyC0ygBOz6_1cIePmCku6c1DyZYnGlI3bSk",
